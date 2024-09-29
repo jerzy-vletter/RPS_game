@@ -1,0 +1,15 @@
+/home/rengoku/projects/c#/RPS_game/bin/Debug/net8.0/RPS_game
+/home/rengoku/projects/c#/RPS_game/bin/Debug/net8.0/RPS_game.deps.json
+/home/rengoku/projects/c#/RPS_game/bin/Debug/net8.0/RPS_game.runtimeconfig.json
+/home/rengoku/projects/c#/RPS_game/bin/Debug/net8.0/RPS_game.dll
+/home/rengoku/projects/c#/RPS_game/bin/Debug/net8.0/RPS_game.pdb
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.GeneratedMSBuildEditorConfig.editorconfig
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.AssemblyInfoInputs.cache
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.AssemblyInfo.cs
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.csproj.CoreCompileInputs.cache
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.dll
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/refint/RPS_game.dll
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.pdb
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.genruntimeconfig.cache
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/ref/RPS_game.dll
+/home/rengoku/projects/c#/RPS_game/obj/Debug/net8.0/RPS_game.sourcelink.json
