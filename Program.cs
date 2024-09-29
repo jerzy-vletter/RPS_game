@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
+﻿
 namespace RockPaperscissors
 {
     public class Program
@@ -15,12 +12,33 @@ namespace RockPaperscissors
             // define a array of options that we will need later
             var valid_moves = new List<string> { "rock", "paper", "scissors" };
 
-            Console.WriteLine("welcome to this console,");
-            Console.WriteLine("would you like to play a game of rock paper scissors?");
-            Console.WriteLine("insert Y(for yes) or N(for no):");
+            OpeningDialog();
 
             String? confirm = Console.ReadLine();
 
+            ConfirmPlay(confirm);
+
+            String? User_move = Console.ReadLine();
+
+            User_move = ConfirmUserMove(User_move, valid_moves);
+
+            String computer_move = SelectComputerMove(valid_moves);
+
+            Console.WriteLine("user move: " + User_move);
+            Console.WriteLine("computer move: " + computer_move);
+
+            SelectOutcome(User_move, computer_move);
+        }
+
+        public static void OpeningDialog()
+        {
+            Console.WriteLine("welcome to this console,");
+            Console.WriteLine("would you like to play a game of rock paper scissors?");
+            Console.WriteLine("insert Y(for yes) or N(for no):");
+        }
+
+        public static void ConfirmPlay(string? confirm)
+        {
             if (String.IsNullOrEmpty(confirm))
             {
                 Console.WriteLine("something went wrong, press any key to close the Program");
@@ -39,9 +57,10 @@ namespace RockPaperscissors
 
             Console.WriteLine("Okay, you want to play,");
             Console.WriteLine("enter either Rock, paper or Scissors below");
+        }
 
-            String? User_move = Console.ReadLine();
-
+        public static string ConfirmUserMove(string? User_move, List<string> valid_moves)
+        {
             if (String.IsNullOrEmpty(User_move))
             {
                 Console.WriteLine("something went wrong, press any key to close the Program");
@@ -58,13 +77,19 @@ namespace RockPaperscissors
                 System.Environment.Exit(0);
             }
 
+            return User_move;
+        }
+
+        public static string SelectComputerMove(List<string> valid_moves)
+        {
             var random = new Random();
             int i = random.Next(valid_moves.Count);
             string computer_move = valid_moves[i];
+            return computer_move;
+        }
 
-            Console.WriteLine("user move: " + User_move);
-            Console.WriteLine("computer move: " + computer_move);
-
+        public static void SelectOutcome(String User_move, String computer_move)
+        {
             switch (User_move)
             {
                 case "rock":
