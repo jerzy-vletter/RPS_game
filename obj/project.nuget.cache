@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+rB0Lthog8hymMF25u93sScKiB2hmXlNJGsacpVZIXflSqHxQIZ0rBWmR+q++6LjiuAN4arEAt9GE56VQSH3lQ==",
+  "dgSpecHash": "4YAX4YfZJrGtZYOr77rXvd9wMha3trhafO/9qolZvsLIH+HCeJsMwuGSXDpytv3JKGc6A68YkzOcOnYCYYMUzw==",
   "success": true,
-  "projectFilePath": "/home/rengoku/projects/c#/RPS_game/RPS_game.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/rengoku/rengoku/projects/CS/RPS_game/RPS_game.csproj",
+  "expectedPackageFiles": [
+    "/home/rengoku/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

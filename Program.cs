@@ -55,6 +55,13 @@ namespace RockPaperscissors
                 System.Environment.Exit(0);
             }
 
+            if (confirm != "y")
+            {
+              Console.WriteLine("you have entered a non valid options, press any key to close the Program");
+              Console.ReadKey();
+              System.Environment.Exit(0);
+            }
+
             Console.WriteLine("Okay, you want to play,");
             Console.WriteLine("enter either Rock, paper or Scissors below");
         }
